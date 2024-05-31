@@ -23,6 +23,8 @@ body {
     height: 100vh;
 }
 
+/* HTML Index */
+
 .container {
     width: 430px;
     height: 750px;
@@ -31,45 +33,41 @@ body {
 }
 
 .title {
-    margin-left: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.7rem;
 }
 
 .titleLogin {
     font-family: Nunito;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-top: 5rem;
 }
 
 .login {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 1rem;
-    gap: 1rem;
-    margin-left: 4rem;
+    align-items: center;
     margin-top: 2rem;
+    gap: 0.5rem;
 
 }
 
 input {
     width: 20rem;
-    height: 1.4rem;
-    border: none;
-    box-shadow: 0px 2px rgb(95, 95, 95);
-}
-
-label {
-    font-family: Nunito;
+    height: 2rem;
+    border: 1px solid #001b42;
 }
 
 .recuperarPw {
     font-family: Nunito;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #357EE4;
-    margin-left: 4rem;
+    margin-left: 3.4rem;
 }
 
 .crearCuenta {
@@ -87,7 +85,7 @@ label {
 
 .registrate {
     color: #357EE4;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .btn-primary {
@@ -96,7 +94,7 @@ label {
     border-radius: 0.5rem;
     display: flex;
     justify-content: center;
-    text-decoration: none;
+    align-items: center;
     color: white;
     font-family: Nunito;
     font-weight: 100;
@@ -112,9 +110,12 @@ label {
     align-items: center;
     font-family: Nunito;
     font-size: 0.8rem;
+    margin-top: 12.1rem;
+}
+
+.footer a {
     color: white;
-    margin-top: 11rem;
-    
+    font-weight: 500;
 }
 
 /* HTML MAPA INTERACTIVO */
@@ -122,8 +123,8 @@ label {
 .containerMap {
     width: 430px;
     height: 750px;
-    background-image: url('./assets/img/navBackgraound.png');
-    background-size: 20rem;
+    background-image: url('./assets/img/backgroundNav.png');
+    background-size: 50rem;
 }
 
 .head {
@@ -133,6 +134,7 @@ label {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #001b42;
+    padding-inline: 1rem;
 }
 
 .log {
@@ -202,6 +204,7 @@ label {
     height: 350px;
     background-color: #F5B074;
     margin: auto;
+    border: 2px solid #0b1b33;
 }
 
 .containerInfo h3 {
@@ -341,6 +344,10 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.notification:hover {
+    background-color: #cdc0aa;
 }
 
 .infoNotification {

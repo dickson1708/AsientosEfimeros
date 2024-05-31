@@ -11,26 +11,24 @@
 </head>
 <body>
     <div class="container">
-        <img class="title" src="./assets/img/titleDunas.png" alt="Dunas" width="350">
-        <h2 class="titleLogin">INICIA SESIÓN</h2>
-        <div class="login">
-            <label for="email">EMAIL:
-            <input type="email" name="email" id="email">
-            </label>
-            <label for="password">CONTRASEÑA:
-            <input type="password" name="password" id="password">
-            </label>
+        <div class="title">
+            <img src="./assets/img/dunas.png" alt="Dunas" width="300">
         </div>
-        <span class="recuperarPw">Recuperar contraseña</span>
+        <h2 class="titleLogin">INICIA SESIÓN</h2>
+        <form class="login">
+            <input placeholder="EMAIL" type="email" name="email" id="email">
+            <input placeholder="CONTRASEÑA" type="password" name="password" id="password">
+        </form>
+        <a href="#" class="recuperarPw">Recuperar contraseña</a>
         <div class="crearCuenta">
             <span class="preguntaAcc">¿No tienes una cuenta?</span>
-            <span class="registrate">Regístrate</span>
+            <a href="#" class="registrate">Regístrate</a>
         </div>
         <a href="map.html" class="btn-primary">ENTRAR</a>
         <footer class="footer">
-            <span>Condiciones de uso</span>
-            <span>Información legal</span>
-            <span>Soporte técnico</span>
+            <a href="#">Condiciones de uso</a>
+            <a href="#">Información legal</a>
+            <a href="#">Soporte técnico</a>
         </footer>
     </div>
 </body>
