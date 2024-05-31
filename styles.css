@@ -1,0 +1,374 @@
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 430px;
+    height: 750px;
+    background-image: url('./assets/img/welcomeBackground.png');
+    background-size: 20rem;
+}
+
+.title {
+    margin-left: 2.5rem;
+}
+
+.titleLogin {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 1rem;
+    gap: 1rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+
+}
+
+input {
+    width: 20rem;
+    height: 1.4rem;
+    border: none;
+    box-shadow: 0px 2px rgb(95, 95, 95);
+}
+
+label {
+    font-family: Nunito;
+}
+
+.recuperarPw {
+    font-family: Nunito;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #357EE4;
+    margin-left: 4rem;
+}
+
+.crearCuenta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Nunito;
+    font-size: 0.8rem;
+}
+
+.preguntaAcc {
+    font-weight: 700;
+}
+
+.registrate {
+    color: #357EE4;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #233957;
+    padding: 5px 70px;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: Nunito;
+    font-weight: 100;
+    margin-top: 1rem;
+    margin-inline: 5rem;
+}
+
+.footer {
+    background-color: #7B91B2;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Nunito;
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 11rem;
+    
+}
+
+/* HTML MAPA INTERACTIVO */
+
+.containerMap {
+    width: 430px;
+    height: 750px;
+    background-image: url('./assets/img/navBackgraound.png');
+    background-size: 20rem;
+}
+
+.head {
+    background-color: #65788E;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #001b42;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.log span {
+    font-family: Nunito;
+    color: white;
+}
+
+.titleMap {
+    font-family: Nunito;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.map {
+    background-color: #2c538a;
+    border: 2px solid #001b42;
+    margin-top: 4rem;
+}
+
+.map path {
+    fill: rgb(165, 129, 129);
+    stroke: rgb(0, 0, 0);
+}
+
+.map path:hover {
+    fill: white;
+}
+
+.nav {
+    background-color: #65788E;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6rem;
+    border-top: 1px solid #001b42;
+}
+
+/* HTML Profile */
+
+.containerProfile {
+    width: 430px;
+    height: 750px;
+    background-color: #DFD7CA;
+    background-size: 20rem;
+}
+
+.titleProfile {
+    font-family: Nunito;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2rem;
+    color: #233957;
+}
+
+.containerInfo {
+    width: 300px;
+    height: 350px;
+    background-color: #F5B074;
+    margin: auto;
+}
+
+.containerInfo h3 {
+    font-family: Nunito;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    color: #233957;
+}
+
+.datos div {
+    margin-left: 2.8rem;
+    margin-top: 1rem;
+}
+
+.datos p {
+    font-family: Nunito;
+}
+
+.direccion, .telefono, .tarjeta {
+    font-weight: 600;
+}
+
+.dato {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.titleAyuda {
+    font-family: Nunito;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+    color: #233957;
+}
+
+.ayuda p {
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #207DFF;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.navProfile {
+    background-color: #65788E;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    border-top: 1px solid #001b42;
+}
+
+/* HTML Bookings */
+
+.containerBookings h1 {
+    font-family: Nunito;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2rem;
+    color: #233957;
+}
+
+.booking {
+    width: 350px;
+    height: 110px;
+    background-color: #FFCFA6;
+    margin: auto;
+    box-shadow: 0px 3px rgba(48, 48, 48, 0.2);
+    margin-top: 1rem;
+    display: flex;
+}
+
+.bookinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+    font-family: Nunito;
+}
+
+.bookinfo h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.bookinfo p {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.price {
+    display: flex;
+    text-align: end;
+    align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 6px;
+}
+
+.navBooking {
+    background-color: #65788E;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+    border-top: 1px solid #001b42;
+}
+
+/* HTML Notifications */
+
+.containerNotifications {
+    width: 430px;
+    height: 750px;
+    background-color: #F5B074;
+    background-size: 20rem;
+}
+
+.titleNotifications {
+    font-family: Nunito;
+    font-weight: 400;
+    color: #233957;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.notification {
+    width: auto;
+    height: 120px;
+    background-color: #DFD7CA;
+    box-shadow: 0px 3px rgba(48, 48, 48, 0.2);
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoNotification {
+    margin-inline: 2rem;
+}
+
+.notification img {
+    margin-left: 2rem;
+}
+
+.msg {
+    font-family: Nunito;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.infoNotification a {
+    color: #207DFF;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.navNotifications {
+    background-color: #65788E;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+    border-top: 1px solid #001b42;
+}
