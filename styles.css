@@ -28,8 +28,9 @@ body {
 .container {
     width: 430px;
     height: 750px;
-    background-image: url('./assets/img/welcomeBackground.png');
-    background-size: 20rem;
+    background-image: url('./assets/img/welcomeBackground.jpg');
+    background-size: 80rem;
+    background-repeat: no-repeat;
 }
 
 .title {
