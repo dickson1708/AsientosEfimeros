@@ -57,7 +57,7 @@ body {
 
 }
 
-input {
+.login input {
     width: 20rem;
     height: 2rem;
     border: 1px solid #001b42;
@@ -158,8 +158,12 @@ input {
     font-weight: 600;
     font-size: 2.5rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: #233957;
+}
+
+.map {
+    margin-top: -3rem;
 }
 
 .map path {
@@ -171,13 +175,35 @@ input {
     fill: white;
 }
 
+.bookingMap {
+    width: 380px;
+    height: 230px;
+    background-color: #FFCFA6;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: -3rem;
+}
+
+.bookingMap h3 {
+    text-align: center;
+}
+
+.controles {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: max-content;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}
+
 .nav {
     background-color: #65788E;
     height: 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 9.2rem;
+    margin-top: 1.6rem;
     border-top: 1px solid #001b42;
 }
 
