@@ -247,7 +247,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 7.5rem;
+    margin-top: 6.6rem;
     border-top: 1px solid #001b42;
 }
 
@@ -459,5 +459,66 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 8.9rem;
+    border-top: 1px solid #001b42;
+}
+
+/* HTML Gallery */
+
+.containerGallery {
+    width: 430px;
+    height: 750px;
+    background-color: #FFECCC;
+    background-size: 20rem;
+}
+
+.containerGallery h1 {
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #233957;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.containerPhotos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.feedback {
+    width: 300px;
+    height: 470px;
+    background-color: #EDEDED;
+    border: 1px solid black;
+}
+
+.descriptionFeedback p {
+    font-family: Nunito;
+    font-weight: 600;
+    color: #207DFF;
+}
+
+.descriptionFeedback {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.descriptionFeedback span {
+    font-family: Nunito;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.navGallery {
+    background-color: #65788E;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
     border-top: 1px solid #001b42;
 }
