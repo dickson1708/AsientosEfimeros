@@ -163,11 +163,11 @@ body {
 }
 
 .map {
-    margin-top: -3rem;
+    margin-top: rem;
 }
 
 .map path {
-    fill: rgb(165, 129, 129);
+    fill: rgb(220, 191, 191);
     stroke: rgb(0, 0, 0);
 }
 
@@ -175,17 +175,57 @@ body {
     fill: white;
 }
 
+.containerAfluencia {
+    margin-top: -3rem;
+}
+
+.cuadro {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.afluencia {
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    font-family: Nunito;
+    font-size: 0.9rem;
+}
+
+#verde {
+    background-color: rgb(93, 238, 85);
+}
+
+#amarillo {
+    background-color: rgb(245, 245, 42);
+}
+
+#rojo {
+    background-color: rgb(236, 86, 75);
+}
+
+.imgBook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bookingMap {
     width: 380px;
-    height: 230px;
+    height: 430px;
     background-color: #FFCFA6;
     border: 2px solid black;
     margin: auto;
-    margin-top: -3rem;
+    margin-top: 1rem;
+   display: none;
 }
 
 .bookingMap h3 {
     text-align: center;
+    margin: 1rem;
 }
 
 .controles {
@@ -197,13 +237,17 @@ body {
     gap: 0.5rem;
 }
 
+.controles p {
+    margin-top: 1rem;
+}
+
 .nav {
     background-color: #65788E;
     height: 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1.6rem;
+    margin-top: 7.5rem;
     border-top: 1px solid #001b42;
 }
 
